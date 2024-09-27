@@ -1,0 +1,137 @@
+/* Estilos base, para pantallas grandes primero */
+* {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    padding: 0 20px;
+    margin: 0;
+}
+
+h1 {
+    visibility: hidden;
+}
+
+#header {
+    width: 100%;
+    background-color: #26a;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(108, 127, 145);
+    padding: 10px;
+}
+
+.nav li {
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    margin: 0 1rem;
+    padding: 10px;
+    border: 0.1rem solid black;
+    border-radius: 5px;
+    background-color: #26a;
+}
+
+.nav li:hover {
+    background-color: aliceblue;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo__img {
+    width: 500px;
+    height: auto;
+}
+
+#main {
+    min-height: 100vh;
+}
+
+.sobre_nosotros, .servicios {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.img_sob_nos, .img_servicios {
+    width: 25%;
+    height: auto; 
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+
+.ind_vid {
+    width: 80%;
+    margin: auto;
+}
+
+.ind_vid video {
+    width: 100%;
+    height: auto;
+}
+
+.contenido {
+    font-size: 1.5em;
+    margin: auto;
+    padding: 20px;
+}
+
+#footer {
+    background-color: #26a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+/* Media queries para pantallas pequeñas */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav li {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .logo__img {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .sobre_nosotros, .servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_sob_nos, .img_servicios {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .contenido {
+        font-size: 1.2em;
+    }
+}
