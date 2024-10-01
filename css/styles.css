@@ -27,7 +27,7 @@ h1 {
     padding: 20px;
 }
 
-/* Mejora de los botones del nav */
+
 .nav {
     display: flex;
     justify-content: center;
@@ -43,10 +43,10 @@ h1 {
     padding: 10px;
     border-radius: 5px;
     background-color: #26a;
-    border: 1px solid #222; /* Añadido un borde más sutil */
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para darle relieve */
+    border: 1px solid #222; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); 
     color: white;
-    transition: background-color 0.3s ease, font-size 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    transition: background-color 0.3s ease, font-size 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .nav li a {
@@ -58,15 +58,15 @@ h1 {
 }
 
 .nav li:hover {
-    background-color: #2196f3; /* Cambia a un azul más claro */
+    background-color: #2196f3;
     font-size: 22px;
     transition: 0.5s;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3); /* Efecto más fuerte en hover */
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3); 
 }
 
 .nav li:active {
-    background-color: #1a7bb8; /* Color más oscuro al hacer clic */
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Sombra reducida al hacer clic */
+    background-color: #1a7bb8; 
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
 }
 
 .logo {
