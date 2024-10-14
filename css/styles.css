@@ -19,6 +19,7 @@ body {
 
 h1 {
   visibility: hidden;
+  width: 0%;
 }
 
 #header {
@@ -113,8 +114,28 @@ h1 {
   padding: 20px;
 }
 
+#footer {
+  background-color: #26a;
+  color: white;
+  text-align: left;
+  padding: 20px 5rem;
+  margin-top: 20px;
+}
+
 /* Media queries para pantallas pequeñas */
 @media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav li {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .logo__img {
+    width: 80%;
+    max-width: 300px;
+  }
   .sobre_nosotros, .servicios {
     flex-direction: column;
     align-items: center;
@@ -126,13 +147,6 @@ h1 {
   .contenido {
     font-size: 1.2em;
   }
-}
-#footer {
-  background-color: #26a;
-  color: white;
-  text-align: left;
-  padding: 20px 5rem;
-  margin-top: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -33,19 +33,3 @@
     padding: 20px;
 }
 
-/* Media queries para pantallas pequeñas */
-@media (max-width: 768px) {
-    .sobre_nosotros, .servicios {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .img_sob_nos, .img_servicios {
-        width: 80%;
-        max-width: 300px;
-    }
-
-    .contenido {
-        font-size: 1.2em;
-    }
-}
