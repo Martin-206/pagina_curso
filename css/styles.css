@@ -85,10 +85,6 @@ h1 {
   min-height: 100vh;
 }
 
-.main__article-index {
-  color: black;
-}
-
 .sobre_nosotros, .servicios {
   display: flex;
   justify-content: space-around;
