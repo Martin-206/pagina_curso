@@ -4,17 +4,20 @@
     padding: 20px;
 }
 
+
 .nav {
     display: flex;
     justify-content: center;
     background-color: rgb(108, 127, 145);
     padding: 10px;
-
-    background-image: url('../img/fondo.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
+//.nav {
+//    background-image: url('../img/fondo.webp');
+//    background-size: cover; /* Esto hace que la imagen cubra todo el fondo */
+//    background-position: center; /* Centra la imagen */
+//    background-repeat: no-repeat; /* Evita que la imagen se repita */
+//    padding: 10px; /* Ajusta el espaciado si es necesario */
+//}
 
 .nav li {
     font-size: 20px;

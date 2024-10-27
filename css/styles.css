@@ -19,7 +19,6 @@ body {
 
 h1 {
   visibility: hidden;
-  width: 0%;
 }
 
 #header {
@@ -33,6 +32,10 @@ h1 {
   justify-content: center;
   background-color: rgb(108, 127, 145);
   padding: 10px;
+  background-image: url("../img/fondo.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .nav li {
@@ -81,6 +84,10 @@ h1 {
 
 #main {
   min-height: 100vh;
+}
+
+.main__article-index {
+  color: black;
 }
 
 .sobre_nosotros, .servicios {
