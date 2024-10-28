@@ -1,27 +1,25 @@
 #header {
     width: 100%;
-    background-image: url('../img/fondo.webp');
-    background-color: rgba(34, 102, 170, 0);
+    background-color: #26a;
     padding: 20px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
 }
 
-.navi {
+
+.nav {
     display: flex;
     justify-content: center;
-
+    background-color: rgb(108, 127, 145);
     padding: 10px;
-
-   // background-image: url('../img/fondo.webp');
-    //background-size: cover;
-    //background-position: center;
-    //background-repeat: no-repeat;
 }
+//.nav {
+//    background-image: url('../img/fondo.webp');
+//    background-size: cover; /* Esto hace que la imagen cubra todo el fondo */
+//    background-position: center; /* Centra la imagen */
+//    background-repeat: no-repeat; /* Evita que la imagen se repita */
+//    padding: 10px; /* Ajusta el espaciado si es necesario */
+//}
 
-.navi li {
+.nav li {
     font-size: 20px;
     text-align: center;
     width: 20%;
@@ -35,7 +33,7 @@
     transition: background-color 0.3s ease, font-size 0.3s ease, box-shadow 0.3s ease; 
 }
 
-.navi li a {
+.nav li a {
     color: white;
     text-decoration: none;
     display: block;
@@ -43,14 +41,14 @@
     height: 100%;
 }
 
-.navi li:hover {
+.nav li:hover {
     background-color: #2196f3;
     font-size: 22px;
     transition: 0.5s;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3); 
 }
 
-.navi li:active {
+.nav li:active {
     background-color: #1a7bb8; 
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
 }

@@ -2,12 +2,12 @@
 
 /* Media queries para pantallas pequeñas */
 @media (max-width: 768px) {
-    .nav {
+    .navi {
         flex-direction: column;
         align-items: center;
     }
 
-    .nav li {
+    .navi li {
         width: 100%;
         margin: 10px 0;
     }
