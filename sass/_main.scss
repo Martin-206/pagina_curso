@@ -7,10 +7,28 @@ color: black;
 
 }
 
-.sobre_nosotros, .servicios {
+.servicios {
     display: flex;
     justify-content: space-around;
     text-align: justify;
+    
+    .parrafo {
+
+        padding: 5rem;
+
+    }
+}
+
+.sobre_nosotros {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+
+    .parrafo {
+
+        padding: 5rem;
+
+    }
 }
 
 .img_sob_nos, .img_servicios {
@@ -23,7 +41,7 @@ color: black;
 }
 
 .ind_vid {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
