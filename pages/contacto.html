@@ -26,7 +26,7 @@
                 <li><a href="../index.html"> Inicio</a></li>
                 <li><a href="catalogo.html"> Catalogo</a></li>
                 <li><a href="sobre_nosotros.html"> Sobre Nosotros</a></li>
-                <li><a href="Servicios.html"> Servicios</a></li>
+                <li><a href="servicios.html"> Servicios</a></li>
                 <li><a href="contacto.html"> Contacto</a></li>
             </ul>
         </nav>
@@ -50,7 +50,7 @@
                         <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo</a></li>
                         <li class="nav-item"><a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="Servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
                         <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
                     </ul>
                 </div>
@@ -66,23 +66,23 @@
             <p>Puedes ponerte en contacto con nosotros rellenando el siguiente formulario:</p>
     
             <form action="enviar_mensaje.php" method="POST" class="row g-3">
-                <div class="col-md-6">
+                <div class="col-md-6 contacto_media">
                     <label for="nombre" class="form-label">Nombre</label>
                     <input type="text" class="form-control" id="nombre" name="nombre" required>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 contacto_media">
                     <label for="email" class="form-label">Correo Electrónico</label>
                     <input type="email" class="form-control" id="email" name="email" required>
                 </div>
-                <div class="col-12">
+                <div class="col-12 contacto_media">
                     <label for="telefono" class="form-label">Teléfono</label>
                     <input type="text" class="form-control" id="telefono" name="telefono">
                 </div>
-                <div class="col-12">
+                <div class="col-12 contacto_media">
                     <label for="mensaje" class="form-label">Mensaje</label>
                     <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
                 </div>
-                <div class="col-12">
+                <div class="col-12 contacto_media">
                     <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
                 </div>
             </form>
